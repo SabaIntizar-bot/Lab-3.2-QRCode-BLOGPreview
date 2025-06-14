@@ -1,0 +1,55 @@
+/* Import Outfit font from Google Fonts */
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  background-color: #D5E1EF; /* var(--color-slate-300) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 375px; /* Mobile width from Figma */
+  height: 812px; /* Mobile height from Figma */
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  text-align: center;
+  width: 288px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.qr-img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background-color: #2C7DFA; /* fallback */
+  object-fit: cover;
+}
+
+/* Heading */
+.card h1 {
+  color: #1F314F; /* var(--color-slate-900) */
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+/* Paragraph */
+.card p {
+  color: #68778D; /* var(--color-slate-500) */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  margin: 0 16px 16px 16px;
+}
